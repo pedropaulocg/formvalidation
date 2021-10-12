@@ -1,0 +1,49 @@
+body{
+    background: lightsteelblue
+}
+#login{
+    width: 270px;
+    height: 160px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#nome{
+    width: 250px;
+    height: 21px;
+    margin-bottom: 15px;
+}
+#senha{
+    width: 250px;
+    height: 21px;
+    margin-bottom: 25px;
+}
+#btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(57, 57, 255);
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+
+}
+#erro{
+    position: absolute;
+    top: 125px;
+    color: red;
+    font-size: 10pt;
+}
+#erro2{
+    position: absolute;
+    top: 65px;
+    color: red;
+    font-size: 10pt;
+}

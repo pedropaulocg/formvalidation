@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="form.js"></script>
+</head>
+<body>
+    <section id="login">
+        <div id="error"></div>
+        <form id="form" onsubmit="validar()">
+            <label for="nomes">Usuario</label><Br>
+            <input id="nome" name="nomes" type="text"><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+            <button type="submit" id="btn" onclick="return validar()" >Cadastrar</button>
+        </form>
+        <div id="erro" ></div>
+        <div id="erro2" ></div>
+    </section>
+</body>
+</html>
